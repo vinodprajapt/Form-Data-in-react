@@ -1,0 +1,46 @@
+ .full-screen-container {
+  height: 100vh; 
+  background-image: url('https://www.shutterstock.com/shutterstock/photos/2032692953/display_1500/stock-vector-abstract-background-with-gradient-dynamic-shapes-composition-eps-vector-2032692953.jpg');
+}
+.output{
+  display: flex;
+  gap: 15px;
+  width: auto;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: rgb(235, 239, 241);
+  border-radius: 10px;
+  padding: 10px;
+  place-content: space-between;
+  box-shadow: 0px 0px 5px black;
+}
+
+
+.popup{
+  width: 350px;
+  background-color: #ede6e6;
+  border-radius: 6px;
+  position: absolute;
+  box-shadow: 0px 0px 15px black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  transition: transform 0.4s, top 0.4s;
+}
+.popup img{
+  width: 60px;
+  margin-top: -25px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0 ,0.8);
+}
+.popup button {
+  width: 200px;
+  background-color: green;
+  border: 0px;
+  border-radius: 20px;
+  color: aliceblue;
+  cursor: pointer;
+}
